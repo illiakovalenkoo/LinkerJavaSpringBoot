@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFFFFF;
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #FCFCFC;
+    transition: color 500ms ease;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2e2e2e;
+    padding: 20px 20px;
+}
+
+header nav a {
+    margin-right: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: #c9c9c9;
+
+}
+
+#logo {
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+main {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.add_links h1 {
+    margin-bottom: 10px;
+}
+
+.add_links form input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px #2e2e2e solid;
+    border-radius: 5px;
+}
+
+.add_links form input:focus {
+    border-color: lightskyblue !important;
+    outline: none !important;
+    box-shadow: 0 0 5px lightskyblue !important;
+}
+
+.add_links form button, .show_links ul li form button {
+    padding: 10px 20px;
+    text-align: center;
+    background: #5796fa;
+    border: 2px #0061fc solid;
+    border-radius: 8px;
+    color: #FFFFFF;
+    transition: background-color 500ms ease;
+}
+
+.console {
+    margin-top: 20px;
+}
+
+.add_links form button:hover, .show_links ul li form button:hover {
+    cursor: pointer;
+    background: #0061fc;
+    border-color: #023b96 !important;
+    outline: none !important;
+    box-shadow: 0 0 5px #5796fa !important;
+}
+
+.show_links ul li {
+    margin: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.show_links ul li form, .show_links ul li p {
+    float: left;
+    margin-right: 20px;
+}
+
+.show_links ul li p a {
+    color: #0061fc;
+}
+
+.show_links ul li p a:hover {
+    color: #023b96;
+    text-decoration: underline;
+}
+
+
+footer {
+    width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 50px;
+}
