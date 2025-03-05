@@ -12,6 +12,7 @@ and allows users to access and manage their shortened links.
 ✔ **List all stored links in the database**  
 ✔ **REST API for URL management**  
 ✔ **Spring Boot-based backend**  
+✔ **Test folder included with UI screenshot**  
 
 ---
 
@@ -52,6 +53,15 @@ and allows users to access and manage their shortened links.
   ```sql
   CREATE DATABASE shortener_db;
   ```
+
+---
+
+## 📂 Test Folder
+
+The project includes a **test folder** with a UI screenshot for verification:
+- `img.png` – Screenshot of the web interface.
+
+This helps verify that the application is working as expected.
 
 ---
 
