@@ -19,9 +19,9 @@ public class MainController {
     @GetMapping("/")
     public String index(@RequestParam(name = "message", defaultValue = "", required = false) String error,  Model model) {
         switch (error) {
-            case "sameLink" -> model.addAttribute("message", "Ссылка c таким именем  уже существует, попробуйте снова.");
-            case "successAdd" -> model.addAttribute("message", "Ссылка успешно добавлена в список");
-            case "successDelete" -> model.addAttribute("message", "Ссылка была удалена");
+            case "sameLink" -> model.addAttribute("message", "A link with this name already exists, please try again.");
+            case "successAdd" -> model.addAttribute("message", "The link has been successfully added to the list.");
+            case "successDelete" -> model.addAttribute("message", "The link has been deleted.");
             default -> model.addAttribute("message", "");
         }
         Iterable<Link> links = linkRepository.findAll();
