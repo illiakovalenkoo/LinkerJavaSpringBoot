@@ -8,7 +8,7 @@
 
 To run this project, you need to have:
 
-- **Java Development Kit (JDK) 17+** installed. Download from [Adoptium JDK](https://adoptium.net/) or use OpenJDK.
+- **Java Development Kit (JDK) 23+** installed. Download from [Adoptium JDK](https://adoptium.net/) or use OpenJDK.
 - **Apache Maven** installed. Download from [Maven](https://maven.apache.org/download.cgi).
 - **MySQL Database** installed. You can use [MAMP](https://www.mamp.info/en/) for an easy setup on macOS or Windows.
 
@@ -74,11 +74,10 @@ To run this project, you need to have:
 
 ## 4. Technologies Used
 
-- **Java 17+**
+- **Java 23+**
 - **Spring Boot**
 - **MySQL** (via MAMP or standalone server)
 - **Thymeleaf** (UI Rendering)
-- **Spring Data JPA** (for database interactions)
 - **Maven** (for project management)
 
 ## 5. Application Testing
