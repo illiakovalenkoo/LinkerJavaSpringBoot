@@ -83,10 +83,11 @@ To run this project, you need to have:
 ## 5. Application Testing
 
 The application has been tested for:
-img.png 
-img1.png 
-img2.png 
-img3.png 
+- **img.png** - Initial page load with previously added links displayed. Console is clear.
+- **img_1.png** - Page state after successfully adding a new link. A success message is displayed in the console.
+- **img_2.png** - Attempt to add a link with a duplicate name. An error message is displayed in the console.
+- **img_3.png** - Page state after deleting a link. A success message is displayed in the console.
+
  **Database connectivity with MySQL**  
  **URL shortening and redirection**  
  **Graphical interface responsiveness**  
